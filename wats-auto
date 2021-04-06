@@ -1,0 +1,13 @@
+
+You need to install a package/library name pywhatkit      pip install pywhatkit
+*
+*
+import pywhatkit
+pywhatkit.sendwhatmsg('country_code + phone_number', 'Message', hours, minutes, wait_time, print_wait_time)
+*
+*
+
+
+
+
+
