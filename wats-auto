@@ -9,5 +9,14 @@ pywhatkit.sendwhatmsg('country_code + phone_number', 'Message', hours, minutes, 
 
 
 
+Example:
+import pywhatkit
+pywhatkit.sendwhatmsg('+91- XXXXXXXXX03', 'how do they do it', 17,20)
 
++91-XXXXXXXX03-           contact number
+'how do they do it'       message 
+17                        hours
+20                        minutes
+
+here we have not mentioned the wait_time & print_wait_time  and we use the default time i.e. 20sec for both.
 
